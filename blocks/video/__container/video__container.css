@@ -1,0 +1,34 @@
+.video__container {
+  max-width: 1184px;
+  margin: 0 auto;
+  margin-top: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1279px) {
+  .video__container {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .video__container {
+    max-width: 720px;
+    margin-top: 46px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video__container {
+    max-width: 720px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 374px) {
+  .video__container {
+    margin-top: 28px;
+  }
+}

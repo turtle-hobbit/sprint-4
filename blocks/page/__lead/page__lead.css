@@ -1,0 +1,9 @@
+.page__lead {
+  padding: 34px 0 40px;
+}
+
+@media (max-width: 767px) {
+  .page__lead {
+    padding: 34px 0 22px;
+  }
+}

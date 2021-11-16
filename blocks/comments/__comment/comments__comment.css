@@ -1,0 +1,21 @@
+.comments__comment {
+  max-width: 382px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1023px) {
+  .comments__comment {
+    margin-bottom: 30px;
+  }
+  .comments__comment:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .comments__comment {
+    margin: -20px 0 52px;
+  }
+}

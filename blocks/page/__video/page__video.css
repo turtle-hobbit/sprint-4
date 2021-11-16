@@ -1,0 +1,27 @@
+.page__video {
+  padding: 54px 0 56px;
+}
+
+@media (max-width: 1279px) {
+  .page__video {
+    padding: 54px 0 53px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .page__video {
+    padding: 54px 0 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page__video {
+    padding: 0px 16px 24px;
+  }
+}
+
+@media (max-width: 374px) {
+  .page__video {
+    padding: 0px 16px 12px;
+  }
+}

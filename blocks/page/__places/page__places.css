@@ -1,0 +1,27 @@
+.page__places {
+  padding: 50px 0 54px;
+}
+
+@media (max-width: 1279px) {
+  .page__places {
+    padding: 50px 48px 53px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .page__places {
+    padding: 50px 24px 58px;
+  }
+}
+
+@media (max-width: 530px) {
+  .page__places {
+    padding: 20px 0 53px;
+  }
+}
+
+@media (max-width: 374px) {
+  .page__places {
+    padding: 20px 0 70px;
+  }
+}

@@ -1,0 +1,11 @@
+.intro__content-rows {
+  padding-right: calc(100% - 690px);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+ .intro__content-rows {
+    padding-right: 0;
+  } 
+}

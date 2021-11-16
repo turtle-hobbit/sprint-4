@@ -1,0 +1,27 @@
+.page__cover {
+  padding: 46px 0 108px;
+}
+
+@media (max-width: 1279px) {
+  .page__cover {
+    padding: 46px 0 110px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .page__cover {
+    padding: 34px 0 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page__cover {
+    padding: 34px 0 58px;
+  }
+}
+
+@media (max-width: 374px) {
+  .page__cover {
+    padding: 52px 0 52px;
+  }
+}

@@ -1,0 +1,32 @@
+.comments__quote {
+  margin: 0 0 15px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media (max-width: 1279px) {
+  .comments__quote {
+    margin: 0 0 18px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .comments__quote {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 767px) {
+  .comments__quote {
+    padding-right: 4px;
+  }
+}
+
+@media (max-width: 374px) {
+  .comments__quote {
+    padding-right: 0;
+  }
+}
+

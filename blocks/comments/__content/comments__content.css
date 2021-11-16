@@ -1,0 +1,10 @@
+.comments__content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1023px) {
+  .comments__content {
+    flex-direction: column-reverse;
+  }
+}

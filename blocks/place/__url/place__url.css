@@ -1,0 +1,14 @@
+.place__url {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #fff;
+  opacity: 1;
+  transition: opacity .4s ease;
+}
+
+.place__url:hover {
+  opacity: .7;
+}
